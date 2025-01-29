@@ -2,7 +2,7 @@
 **Find the shortest hyperlinked path between any two Wikipedia pages**  
 
 ![Wikipedia Pathfinder](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Wikipedia-logo-transparent.png/200px-Wikipedia-logo-transparent.png)
----
+
 
 ## 📝 Project Overview  
 Wikipedia Pathfinder is a graph-based tool for finding the shortest hyperlink path between two Wikipedia pages. To optimize performance, Neo4j is used for graph storage, FastAPI for querying, and Redis for caching.  
