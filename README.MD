@@ -4,7 +4,7 @@
 ![Wikipedia Pathfinder](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Wikipedia-logo-transparent.png/200px-Wikipedia-logo-transparent.png)
 
 ## 📝 Project Overview  
-Wikipedia Pathfinder is a graph-based tool for finding the shortest hyperlink path between two Wikipedia pages. To optimize performance, Neo4j is used for graph storage, FastAPI for querying, and Redis for caching.  
+Got a little too obsessed with Wikipedia Speedrunning and created Wikipedia Pathfinder, a graph-based tool and API for finding the shortest hyperlink path between two Wikipedia pages. To optimize performance, Neo4j is used for graph storage, FastAPI for querying, and Redis for caching. This project is my introduction to Redis and Neo4j. :)
 
 ## 🚀 Features  
 ✅ **Shortest Path Algorithm** (BFS & A*)  
