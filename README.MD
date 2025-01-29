@@ -3,11 +3,8 @@
 
 ![Wikipedia Pathfinder](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Wikipedia-logo-transparent.png/200px-Wikipedia-logo-transparent.png)
 
-
 ## 📝 Project Overview  
 Wikipedia Pathfinder is a graph-based tool for finding the shortest hyperlink path between two Wikipedia pages. To optimize performance, Neo4j is used for graph storage, FastAPI for querying, and Redis for caching.  
-
----
 
 ## 🚀 Features  
 ✅ **Shortest Path Algorithm** (BFS & A*)  
@@ -16,8 +13,6 @@ Wikipedia Pathfinder is a graph-based tool for finding the shortest hyperlink pa
 ✅ **REST API** for developer access  
 ✅ **Interactive Web UI** (React + D3.js)  
 ✅ **Scalable & Cloud-Deployable**  
-
----
 
 ## 🛠️ Tech Stack  
 | Component      | Technologies |
@@ -28,8 +23,6 @@ Wikipedia Pathfinder is a graph-based tool for finding the shortest hyperlink pa
 | **Frontend**  | React + D3.js |
 | **Data Source** | Wikipedia API & Wikipedia Dumps |
 | **Deployment** | Docker, AWS/GCP |
-
----
 
 ## 🛠️ Installation & Setup  
 ### 1️⃣ Clone the Repository  
@@ -64,8 +57,6 @@ uvicorn backend.api:app --reload
 ```
 - **API URL:** `http://localhost:8000`
 
----
-
 ### 3️⃣ Set Up Frontend  
 ```bash
 cd frontend
@@ -73,8 +64,6 @@ npm install
 npm start
 ```
 - **Frontend URL:** `http://localhost:3000`
-
----
 
 ## 🔗 API Endpoints  
 | Method | Endpoint | Description |
@@ -98,8 +87,6 @@ Example response:
 }
 ```
 
----
-
 ## 🖥️ Deployment  
 ### Containerize with Docker  
 #### 1. Build Docker Images  
@@ -112,8 +99,6 @@ docker build -t wikipedia-pathfinder-frontend ./frontend
 ```bash
 docker-compose up -d
 ```
-
----
 
 ## 📜 License  
 This project is open-source and available under the **MIT License**.  
